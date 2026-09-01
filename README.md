@@ -1,0 +1,1 @@
+# n8n-job-application-agent
