@@ -311,4 +311,6 @@ Keep all submission and recruiter-contact actions behind a human approval step.
 
 ## License
 
-No license has been selected. Add an appropriate license before accepting outside contributions or reuse.
+This project is licensed under the [MIT License](LICENSE). You may use, copy,
+modify, merge, publish, distribute, sublicense, and sell copies of the software
+subject to the conditions in the license.
