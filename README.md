@@ -40,6 +40,19 @@ flowchart TD
 | `n8n-gmail-job-application-agent.json` | Importable n8n workflow |
 | `README.md` | Setup, testing, publishing, and troubleshooting guide |
 
+## Tech stack
+
+| Technology | Role |
+| --- | --- |
+| [n8n Cloud](https://n8n.io/cloud/) | Workflow orchestration, scheduling, branching, approvals, and credential management |
+| Gmail Trigger and Gmail nodes | Inbox polling, approval emails, application-kit delivery, and recruiter draft creation |
+| Google OAuth 2.0 | Secure Gmail authentication through n8n credentials |
+| OpenAI Responses API | Job classification, fit scoring, tailored pitches, cover letters, and screening-answer suggestions |
+| `gpt-5-mini` | Structured, cost-conscious language-model inference |
+| JavaScript | Email normalization, JSON validation, and application-kit assembly in n8n Code nodes |
+| n8n expressions and JSON | Dynamic data mapping and portable workflow definition |
+| Mermaid | Architecture diagram rendered in GitHub Markdown |
+
 ## Prerequisites
 
 - An [n8n Cloud](https://n8n.io/cloud/) workspace.
